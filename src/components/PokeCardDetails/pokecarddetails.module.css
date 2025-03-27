@@ -1,0 +1,115 @@
+.tarjeta {
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    min-width: 300px;
+    max-width: 400px;
+    margin: 20px auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .tarjeta:hover {
+    transform: scale(1.05);
+  }
+  
+  h1 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .picture {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .estadisticas, .habilidades, .tipos {
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  h2, h3 {
+    font-size: 18px;
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+  }
+  
+  p, li {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #efefef;
+    padding: 6px;
+    margin: 4px 0;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+
+
+
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.habilidades h3 {
+    font-size: 1.5rem;
+}
+.habilidades ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.habilidades ul li {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 180, 68);
+    color: white;
+}
+
+
+
+
+
+
+.tipos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tipos h3 {
+    font-size: 1.5rem;
+}
+.tipos ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tipos ul li {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 180, 68);
+    color: white;
+}
